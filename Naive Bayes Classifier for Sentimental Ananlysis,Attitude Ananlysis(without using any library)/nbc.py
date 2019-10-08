@@ -50,13 +50,13 @@ def naive_bayes(training, outcome, new_sample):
 
 if __name__ == "__main__":
     print('-----Feeding Training data-----')
-    training = np.asarray(pd.read_csv('S:/AML/AML-Assignment-1/trainnew.csv',sep=','));
+    training = np.asarray(pd.read_csv('trainnew.csv',sep=','));
     print('-->Done')
     print('-----Feeding the Indicative Attitude of Each Review-----')
     outcome = np.asarray((0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,));
     print('-->Done')
     print('-----Feeding the Test Data for Classification-----')
-    new_sample = np.asarray(pd.read_csv('S:/AML/AML-Assignment-1/testnew.csv',sep=','))
+    new_sample = np.asarray(pd.read_csv('testnew.csv',sep=','))
     print('-->Done')
 for i in range(len(new_sample)):
     z=new_sample[i]
