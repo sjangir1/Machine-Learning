@@ -6,3 +6,7 @@ The Linear Regression model is trained with the Seria A dataset.
 Each part has two approaches: 
 #### Approach(1) : In this appraoch I use top 10 teams for training and bottom 10 teams for testing.
 #### Approach(2) : Used the results of randomly selected 10 teams as a training set and applied the trained model to the remaining 10 teams. Repeated this experiment 20 times and calculated the predicted result of each team as an average result over all experimeents.
+
+## Naive Bayes Classifier for Sentimental Ananlysis,Attitude Ananlysis(without using any library)
+Implementation of Naive Bayes classifier on product review and predicting the attitude of customer whether it is positive or negative.
+No Machine Learning Model libraries were used in the implementation.
