@@ -18,7 +18,7 @@ For example:
   
   ➢ Following this procedure of encoding our feature vector will now be [0,1,2,3,0,3]. 
 
-Script for this process is named convert.py. It can be found in the code folder. 
+Script for this process is named convert.py. 
 
 ## 2)Building a visualization of the DNA data using two methods: 
 
