@@ -12,7 +12,9 @@ Implementation of Naive Bayes classifier on product review and predicting the at
 No Machine Learning Model libraries were used in the implementation.
 
 ## Principal Component Analysis and Multi-Dimensional Scaling on DNA dataset
-Using some encoding to convert the DNA character sequence to numeric sequence. These sequences are our feature vectors
+Using some encoding to convert the DNA character sequence to numeric sequence. These sequences are our feature vectors.
+
 Using both PCA and MDS to get 2 dimensional DNA data.
+
 Finally applying K-means technique for clusring the 2 dimensional data.
 
