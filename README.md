@@ -10,3 +10,9 @@ Each part has two approaches:
 ## Naive Bayes Classifier for Sentimental Ananlysis,Attitude Ananlysis(without using any library)
 Implementation of Naive Bayes classifier on product review and predicting the attitude of customer whether it is positive or negative.
 No Machine Learning Model libraries were used in the implementation.
+
+## Principal Component Analysis and Multi-Dimensional Scaling on DNA dataset
+Using some encoding to convert the DNA character sequence to numeric sequence. These sequences are our feature vectors
+Using both PCA and MDS to get 2 dimensional DNA data.
+Finally applying K-means technique for clusring the 2 dimensional data.
+
